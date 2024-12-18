@@ -1,0 +1,24 @@
+---
+interface Props {
+    fontSize: string;
+}
+
+const { fontSize } = Astro.props;
+---
+
+<style>
+    .blinking-cursor {
+      display: inline-block;
+      font-size: fontSize;
+      line-height: 1;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
+  
+  <span class="blinking-cursor">_</span>

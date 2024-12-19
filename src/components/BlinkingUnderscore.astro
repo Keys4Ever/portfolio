@@ -6,10 +6,10 @@ interface Props {
 const { fontSize } = Astro.props;
 ---
 
-<style>
+<style define:vars={{ fontSize }}>
     .blinking-cursor {
       display: inline-block;
-      font-size: fontSize;
+      font-size: var(--fontSize);
       line-height: 1;
       color: rgb(236 72 153);
       animation: blink 1s step-end infinite;
@@ -20,6 +20,6 @@ const { fontSize } = Astro.props;
         opacity: 0;
       }
     }
-  </style>
+</style>
   
-  <span class="blinking-cursor">_</span>
+<span class="blinking-cursor">_</span>

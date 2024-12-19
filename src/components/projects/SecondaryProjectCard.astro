@@ -1,0 +1,28 @@
+---
+import { ArrowUpRight } from 'icons';
+import type { SecondaryProject } from '../../types/project';
+
+interface Props {
+  project: SecondaryProject;
+}
+
+const { project } = Astro.props;
+---
+<a href={`/project/${project.id}`}>
+  <div class="border-2 border-white p-6 hover:border-pink-500 transition-colors">
+    <div class="flex justify-between items-start mb-4">
+      <h3 class="text-xl font-bold">{project.title}</h3>
+      <span set:html={ArrowUpRight} class="text-pink-500"></span>
+    </div>
+    <p class="text-gray-400 mb-4">{project.description}</p>
+    <div class="flex flex-wrap gap-2">
+      {project.tags.map((tag) => (
+        <span 
+          class="text-sm border border-white px-2 py-1"
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  </div>
+</a>

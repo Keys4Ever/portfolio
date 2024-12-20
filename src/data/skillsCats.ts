@@ -1,4 +1,4 @@
-import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, Sqlite, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx } from 'icons';
+import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, Sqlite, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel } from 'icons';
 export const skillCategories = {
     frontend: {
       title: 'LANGUAGES',
@@ -28,9 +28,9 @@ export const skillCategories = {
       icon: Database,
       skills: [
         { name: 'PostgreSQL', icon: Postgres },
-        { name: 'Sqlite', icon: Sqlite },
         { name: 'MySQL', icon: MySql },
-        { name: 'SUPABASE', icon: supabase }
+        { name: 'SUPABASE', icon: supabase },
+        { name: 'esqlito', icon: Sqlite}
       ]
     },
     cloud: {
@@ -38,6 +38,8 @@ export const skillCategories = {
       icon: Cloud,
       skills: [
         { name: 'AWS', icon: Aws },
+        { name: 'Vercel', icon: vercel },
+        { name: 'NGINX', icon: nginx }
       ]
     },
     design: {
@@ -57,7 +59,6 @@ export const skillCategories = {
         { name: 'Github', icon: Github },
         { name: 'POSTMAN', icon: Postman },
         { name: 'VS Code', icon: vsCode },
-        { name: 'NGINX', icon: nginx },
       ]
     }
   };

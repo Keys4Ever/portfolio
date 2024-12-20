@@ -1,0 +1,26 @@
+---
+
+interface ProjectHeaderProps {
+  title: string;
+  tags: string[];
+  year: string;
+}
+const { title, tags, year } = Astro.props;
+---
+<header class="mb-12">
+    <h1 class="text-6xl md:text-8xl font-bold tracking-tighter mb-8">
+    {title}
+    </h1>
+    <div class="flex flex-wrap items-center gap-4">
+    <span class="text-pink-500">{year}</span>
+    <div class="flex flex-wrap gap-2">
+        {tags.map((tag: string) => (
+        <span 
+            class="px-3 py-1 border-2 border-white text-sm"
+        >
+            {tag}
+        </span>
+        ))}
+    </div>
+    </div>
+</header>

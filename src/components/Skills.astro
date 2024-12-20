@@ -1,0 +1,46 @@
+---
+import {
+  Code2,
+  Globe2,
+  Database,
+  Cloud,
+  Wrench,
+  Cpu,
+  Palette,
+  Box,
+  Github,
+  Layout,
+  Server,
+  Terminal,
+  Smartphone
+} from 'icons';
+
+import { skillCategories } from '../data/skillsCats';
+import BlinkingUnderscore from './BlinkingUnderscore.astro';
+---
+
+<section class="mb-20">
+    <h2 class="text-4xl font-bold mb-12 border-l-4 border-pink-500 pl-4">SKILLS <span class="-ml-4"><BlinkingUnderscore fontSize='2.2rem' /></span> </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {Object.entries(skillCategories).map(([, category]) => (
+          <div class="border-2 border-white p-6 hover:border-pink-500 transition-colors">
+            <h4 class="text-xl font-bold flex items-center gap-2 mb-4">
+              <span class="text-pink-500" set:html={category.icon}></span>
+              {category.title}
+            </h4>
+            <ul class="space-y-3">
+              {category.skills.map((skill) => (
+                <li class="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+                    <span
+                        set:html={skill.icon}
+                        class="text-pink-500 w-4 h-4 flex items-center justify-center"
+                    ></span>
+                    {skill.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      
+</section>

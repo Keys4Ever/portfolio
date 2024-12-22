@@ -2,6 +2,7 @@ export interface BaseProject {
     id: string;
     title: string;
     description: string;
+    overview: string;
     technologies: string[];
     github: string;
     demo?: string;
@@ -11,7 +12,6 @@ export interface BaseProject {
   
   export interface FeaturedProject extends BaseProject {
     type: 'featured';
-    overview: string;
     challenges: string[];
     solutions: string[];
     images: string[];

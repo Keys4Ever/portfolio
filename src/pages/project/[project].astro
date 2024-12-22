@@ -43,14 +43,18 @@ if (!projects) {
       <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
         <!-- Project Content Section -->
         <div class="md:col-span-9">
-          {projects.type === "featured" && 
+          {projects.type === "featured" ? 
             <ProjectContent 
               overview={projects.overview}
               challenges={projects.challenges}
               solutions={projects.solutions}
               technologies={projects.technologies}
-            />
-          }
+            /> :
+            <ProjectContent 
+              overview={projects.overview}
+              technologies={projects.technologies}
+              />
+          } 
         </div>
 
         <!-- Sticky Links Section - Ahora a la derecha -->

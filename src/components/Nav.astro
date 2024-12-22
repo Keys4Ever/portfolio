@@ -1,1 +1,20 @@
-#TODO 
+---
+import NavItem from '../components/Nav/NavItem.astro'
+
+const url = Astro.url;
+let isHome;
+if(url.pathname === '/') {
+    isHome = true;
+} else {
+    isHome = false;
+}
+---
+<div class="fixed top-6 right-6 z-50">
+    <ul class="bg-black border-2 border-white flex flex-row h-12">
+        <NavItem to="/">Home</NavItem>
+        { isHome &&
+        <NavItem to="#Projects">Projects</NavItem>
+        <NavItem to="#About">About</NavItem>
+        <NavItem to="#Skills">Skills</NavItem>
+        <NavItem to="#Contact">Contact</NavItem>}
+</div>

@@ -74,64 +74,26 @@ export const projectsData: Project[] = [
     tags: ["HTML", "TAILWIND CSS", "JAVASCRIPT", "TEAM PROJECT"]
   },
   {
-    id: "blockchain-explorer",
-    type: "featured",
-    title: "BLOCKCHAIN EXPLORER",
-    description: "Real-time blockchain data visualization platform",
-    overview: "A comprehensive blockchain explorer that provides real-time insights into various blockchain networks. Features include transaction tracking, address monitoring, and advanced analytics.",
-    challenges: [
-      "Processing large volumes of blockchain data",
-      "Maintaining real-time synchronization",
-      "Visualizing complex blockchain relationships"
-    ],
-    solutions: [
-      "Implemented WebSocket-based real-time updates",
-      "Built custom data indexing system",
-      "Created interactive network visualization"
-    ],
-    technologies: [
-      "React",
-      "Node.js",
-      "Web3.js",
-      "D3.js"
-    ],
-    images: [
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&w=800&q=80"
-    ],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    year: "2023",
-    tags: ["BLOCKCHAIN", "REACT", "NODE.JS"]
+    id: "landing",
+    type: "secondary",
+    title: "Manga Library Landing page",
+    description: "Simple landing page built in Astro to follow versions of the Manga Library",
+    overview: "Landing page for the Manga Library project, built with Astro.JS and Tailwind CSS. The page is designed to showcase the features of the Manga Library application and provide a brief overview of the project. The landing page is fully responsive and optimized for performance. It uses MarkDown files to manage the version details.",
+    technologies: ["TypeScript", "Astro.JS", "Tailwind CSS"],
+    github: "https://github.com/Keys4Ever/Manga-Library-Landing",
+    demo: "https://manga-library.vercel.app/",
+    year: "2024",
+    tags: ["TypeScript", "Astro.JS", "Tailwind CSS"]
   },
   {
-    id: "npm-package",
+    id: "urlShortener",
     type: "secondary",
-    title: "REACT STATE MANAGER",
-    description: "Lightweight state management solution for React applications",
-    technologies: ["TypeScript", "React", "RxJS"],
-    github: "https://github.com",
+    title: "URL Shortener",
+    description: "First version of the URL Shortener, maded in a monolithic way",
+    overview: "Maded to learn basics of Node.JS, Express.JS and SQLite, this project is a simple URL shortener that allows users to create shortened URLs from long links. The application is built using Node.JS and SQLite and features a simple user interface for creating and managing shortened URLs. The project is a monolithic application and is not optimized for high traffic loads.",
+    technologies: ["SQLite", "Node.JS", "Tailwind CSS"],
+    github: "https://github.com/Keys4Ever/URLShortener",
     year: "2023",
-    tags: ["OPEN SOURCE", "REACT", "TYPESCRIPT"]
+    tags: ["TypeScript", "Astro.JS", "Tailwind CSS"]
   },
-  {
-    id: "cli-tool",
-    type: "secondary",
-    title: "DEV WORKFLOW CLI",
-    description: "Command-line tool for automating development workflows",
-    technologies: ["Node.js", "TypeScript", "Commander.js"],
-    github: "https://github.com",
-    year: "2023",
-    tags: ["CLI", "NODE.JS", "TYPESCRIPT"]
-  },
-  {
-    id: "vscode-extension",
-    type: "secondary",
-    title: "CODE SNIPPETS MANAGER",
-    description: "VSCode extension for managing and sharing code snippets",
-    technologies: ["TypeScript", "VSCode API"],
-    github: "https://github.com",
-    year: "2023",
-    tags: ["VSCODE", "TYPESCRIPT"]
-  }
 ];

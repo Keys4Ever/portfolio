@@ -1,39 +1,42 @@
 ---
 interface ProjectContentProps {
   overview: string;
-  challenges: string[];
-  solutions: string[];
-  technologies: string[];
+  challenges?: string[];
+  solutions?: string[];
+  technologies?: string[];
 }
 
-const { overview, challenges, solutions, technologies } = Astro.props;
+const { overview, challenges = "", solutions = "", technologies ="" } = Astro.props;
 
 ---
 
     <div class="space-y-12">
       <section>
         <h2 class="text-4xl font-bold mb-6 border-l-4 border-pink-500 pl-4">
-          OVERVIEW_
+          OVERVIEW
         </h2>
         <p class="text-xl leading-relaxed">{overview}</p>
       </section>
 
+      {challenges && 
+        <section>
+          <h2 class="text-4xl font-bold mb-6 border-l-4 border-pink-500 pl-4">
+            CHALLENGES
+          </h2>
+          <ul class="space-y-4">
+            {challenges.map((challenge: string) => (
+              <li class="text-xl">
+                &#8226; {challenge}
+              </li>
+            ))}
+          </ul>
+        </section>
+        }
+      
+      {solutions &&
       <section>
         <h2 class="text-4xl font-bold mb-6 border-l-4 border-pink-500 pl-4">
-          CHALLENGES_
-        </h2>
-        <ul class="space-y-4">
-          {challenges.map((challenge: string) => (
-            <li class="text-xl">
-              &#8226; {challenge}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-4xl font-bold mb-6 border-l-4 border-pink-500 pl-4">
-          SOLUTIONS_
+          SOLUTIONS
         </h2>
         <ul class="space-y-4">
           {solutions.map((solution: string) => (
@@ -43,5 +46,6 @@ const { overview, challenges, solutions, technologies } = Astro.props;
           ))}
         </ul>
       </section>
+      }
     </div>
 

@@ -2,40 +2,45 @@ import type { Project } from '../types/project';
 
 export const projectsData: Project[] = [
   {
-    id: "ecommerce-platform",
+    id: "URL-Shortener",
     type: "featured",
-    title: "E-COMMERCE PLATFORM",
-    description: "Full-stack application built with Next.js and GraphQL",
-    overview: "A modern e-commerce platform built with Next.js, featuring real-time inventory management, dynamic product filtering, and seamless checkout experience. The platform integrates with multiple payment providers and includes an advanced admin dashboard for inventory and order management.",
+    title: "URL Shortener",
+    description: "Full-stack application built with Node.js, Express, React and PostgreSQL",
+    overview: "A URL shortening service that allows users to create shortened URLs from long links. Features include custom URL aliases, clicks counts, user authentication, and Tags for the urls.",
     challenges: [
-      "Implementing real-time inventory updates across multiple warehouses",
-      "Optimizing performance for large product catalogs",
-      "Building a secure and scalable payment processing system",
-      "Managing complex state across multiple user sessions"
+      "Implementing redis caching for faster redirections",
+      "Designing a scalable database schema for storing URLs",
+      "Securing the application from malicious URL inputs",
+      "Creating a user-friendly interface for managing URLs",
+      "Optimizing the application for high traffic loads",
+      "Implementing tags system for urls"
     ],
     solutions: [
-      "Utilized GraphQL subscriptions for real-time data synchronization",
-      "Implemented efficient caching strategies and pagination",
-      "Integrated with Stripe and PayPal using microservices architecture",
-      "Leveraged Redux Toolkit for state management with optimized performance"
+      "Used Redis for caching frequently accessed URLs",
+      "Designed a PostgreSQL schema optimized for URL storage",
+      "Implemented input validation and sanitization",
+      "Built a responsive React front-end",
+      "Deployed the application on AWS EC2 and RDS",
+      "Used PostgreSQL for storing tags and implemented many-to-many relationship between urls and tags"
     ],
     technologies: [
-      "Next.js",
-      "GraphQL",
-      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
       "Node.js",
+      "Express.js",
+      "TypeScript",
       "PostgreSQL",
       "Redis",
-      "Docker"
+      "AWS",
     ],
     images: [
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&w=800&q=80"
+      "https://i.imgur.com/Dvigxup.png",
+      "https://i.imgur.com/AStyyNn.png",
     ],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/Keys4Ever/URLShortenerV2",
+    demo: "https://keys.lat",
     year: "2024",
-    tags: ["NEXT.JS", "GRAPHQL", "TYPESCRIPT"]
+    tags: ["REACT.JS", "EXPRESS.JS", "TYPESCRIPT"]
   },
   {
     id: "ai-image-generator",

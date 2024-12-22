@@ -4,6 +4,6 @@ interface NavItemProps {
 }
 const { to } = Astro.props;
 ---
-<li class="px-4 py-0 flex items-center border-r-2 border-white last:border-r-0 h-full hover:bg-pink-500 transition-colors duration-75">
+<li class="px-4 py-2 flex items-center border-b-2 md:border-b-0 md:border-r-2 border-white last:border-b-0 md:last:border-r-0 h-full hover:bg-pink-500 transition-colors duration-75">
     <a href={to}><slot /></a>
 </li>

@@ -10,11 +10,12 @@ if(url.pathname === '/') {
 }
 ---
 <div class="fixed top-6 right-6 z-50">
-    <ul class="bg-black border-2 border-white flex flex-row h-12">
+    <ul class="bg-black border-2 border-white flex flex-col md:flex-row">
         <NavItem to="/">Home</NavItem>
         { isHome &&
         <NavItem to="#Projects">Projects</NavItem>
         <NavItem to="#About">About</NavItem>
         <NavItem to="#Skills">Skills</NavItem>
         <NavItem to="#Contact">Contact</NavItem>}
+    </ul>
 </div>

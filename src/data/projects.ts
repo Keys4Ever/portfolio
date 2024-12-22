@@ -65,8 +65,8 @@ export const projectsData: Project[] = [
       "JavaScript",
     ],
     images: [
+      "https://lh3.googleusercontent.com/rH5_uGMXIj0zAnKTpM7JKdgTeY6ZtuSnPtk77W2Z_ZvbaGmrMBesuRSF9EDAVaAXMvZtFvC-eXXuu-m3nSln-K8C_g=s1280-w1280-h800",
       "https://lh3.googleusercontent.com/4LVp0ux7EsIhLVug6jPpwh5MBcG-zQ1ntEbjoSlSEBOMTbaY2iWfEyWDCZWcYMSnZSV861D1Nl58EnJnkQkbqrxA8Q=s1280-w1280-h800",
-      "https://lh3.googleusercontent.com/rH5_uGMXIj0zAnKTpM7JKdgTeY6ZtuSnPtk77W2Z_ZvbaGmrMBesuRSF9EDAVaAXMvZtFvC-eXXuu-m3nSln-K8C_g=s1280-w1280-h800"
     ],
     github: "https://github.com/KosmoSama/Manga-Extension",
     demo: "https://chromewebstore.google.com/detail/manga-library/agdepjcnhljkjcnnmanbooinhoaieidc",

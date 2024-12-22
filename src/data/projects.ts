@@ -43,36 +43,35 @@ export const projectsData: Project[] = [
     tags: ["REACT.JS", "EXPRESS.JS", "TYPESCRIPT"]
   },
   {
-    id: "ai-image-generator",
+    id: "Manga-Library",
     type: "featured",
-    title: "AI IMAGE GENERATOR",
-    description: "Creative AI tool using Stable Diffusion",
-    overview: "An innovative AI-powered image generation platform that allows users to create unique artwork through text prompts. Features include style mixing, image-to-image generation, and a gallery system for sharing creations.",
+    title: "Manga Library",
+    description: "Chrome extension CRUD to manage your reading mangas and more! - Team Project",
+    overview: "A modern and minimalistic CRUD application tailored for manga, manhua, and manhwa enthusiasts. Seamlessly organize your library by saving titles and links, tracking chapter progress, and managing your reading list with ease. Featuring smart filters for effortless sorting and searching, this app ensures that your collection is always just a click away. With a clean, intuitive interface crafted by manga lovers, for manga lovers, it’s the ultimate tool to elevate your reading experience.",
     challenges: [
-      "Optimizing AI model performance for web deployment",
-      "Managing high-resolution image processing",
-      "Creating an intuitive UI for complex AI parameters"
+      "Learning javascript from scratch",
+      "Colaborating with a team",
+      "Make a maintanable code",
+      "Publish the extension on the Chrome Web Store"
     ],
     solutions: [
-      "Implemented WebGL acceleration for client-side processing",
-      "Built custom image processing pipeline",
-      "Designed an advanced yet user-friendly parameter control system"
+      "Implemented tailwind for styling",
+      "Used browser API's as Local Storage for saving data",
+      "Implement and manage bookmarks api's for import the mangas",
     ],
     technologies: [
-      "React",
-      "Python",
-      "TensorFlow",
-      "WebGL",
-      "FastAPI"
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
     ],
     images: [
-      "https://images.unsplash.com/photo-1547954575-855750c57bd3?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1561736778-92e52a7769ef?auto=format&fit=crop&w=800&q=80"
+      "https://lh3.googleusercontent.com/4LVp0ux7EsIhLVug6jPpwh5MBcG-zQ1ntEbjoSlSEBOMTbaY2iWfEyWDCZWcYMSnZSV861D1Nl58EnJnkQkbqrxA8Q=s1280-w1280-h800",
+      "https://lh3.googleusercontent.com/rH5_uGMXIj0zAnKTpM7JKdgTeY6ZtuSnPtk77W2Z_ZvbaGmrMBesuRSF9EDAVaAXMvZtFvC-eXXuu-m3nSln-K8C_g=s1280-w1280-h800"
     ],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/KosmoSama/Manga-Extension",
+    demo: "https://chromewebstore.google.com/detail/manga-library/agdepjcnhljkjcnnmanbooinhoaieidc",
     year: "2024",
-    tags: ["AI", "REACT", "PYTHON"]
+    tags: ["HTML", "TAILWIND CSS", "JAVASCRIPT", "TEAM PROJECT"]
   },
   {
     id: "blockchain-explorer",

@@ -1,5 +1,6 @@
 ---
 import Footer from "src/components/Footer.astro";
+import Nav from "src/components/Nav.astro";
 ---
 
 <!doctype html>
@@ -16,6 +17,7 @@ import Footer from "src/components/Footer.astro";
 		<title>Keys4Ever</title>
 	</head>
 	<body class="bg-black text-white font-mono mx-auto selection:bg-pink-500 selection:text-white">
+		<Nav />
 		<div class="p-4"><slot /></div>
 		<Footer />
 	</body>

@@ -36,12 +36,26 @@ if (!projects) {
     />
     
     <!-- Project Gallery -->
-    {projects.type === "featured" && projects.images &&
-      <ProjectGallery images={projects.images} />
-    }
-    {projects.type === "featured" && projects.videos &&
-      <ProjectGallery videos={projects.videos} />
-    }
+    {projects.type === "featured" && (
+      <>
+        {projects.images && projects.videos && (
+          <ProjectGallery 
+            images={projects.images}
+            videos={projects.videos}
+          />
+        )}
+        {projects.images && !projects.videos && (
+          <ProjectGallery 
+            images={projects.images}
+          />
+        )}
+        {projects.videos && !projects.images && (
+          <ProjectGallery 
+            videos={projects.videos}
+          />
+        )}
+      </>
+    )}
     
     <!-- Main Content Grid -->
     <div class="relative mt-12">

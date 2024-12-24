@@ -36,8 +36,11 @@ if (!projects) {
     />
     
     <!-- Project Gallery -->
-    {projects.type === "featured" && 
+    {projects.type === "featured" && projects.images &&
       <ProjectGallery images={projects.images} />
+    }
+    {projects.type === "featured" && projects.videos &&
+      <ProjectGallery videos={projects.videos} />
     }
     
     <!-- Main Content Grid -->

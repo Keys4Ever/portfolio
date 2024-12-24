@@ -14,7 +14,8 @@ export interface BaseProject {
     type: 'featured';
     challenges: string[];
     solutions: string[];
-    images: string[];
+    images?: string[];
+    videos?: string[];
   }
   
   export interface SecondaryProject extends BaseProject {

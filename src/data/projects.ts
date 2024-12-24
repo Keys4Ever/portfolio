@@ -65,13 +65,44 @@ export const projectsData: Project[] = [
       "JavaScript",
     ],
     images: [
-      "https://lh3.googleusercontent.com/rH5_uGMXIj0zAnKTpM7JKdgTeY6ZtuSnPtk77W2Z_ZvbaGmrMBesuRSF9EDAVaAXMvZtFvC-eXXuu-m3nSln-K8C_g=s1280-w1280-h800",
-      "https://lh3.googleusercontent.com/4LVp0ux7EsIhLVug6jPpwh5MBcG-zQ1ntEbjoSlSEBOMTbaY2iWfEyWDCZWcYMSnZSV861D1Nl58EnJnkQkbqrxA8Q=s1280-w1280-h800",
+      "https://i.imgur.com/1M1GULU.png",
+      "https://i.imgur.com/bSS4MNn.png",
     ],
     github: "https://github.com/KosmoSama/Manga-Extension",
     demo: "https://chromewebstore.google.com/detail/manga-library/agdepjcnhljkjcnnmanbooinhoaieidc",
     year: "2024",
     tags: ["HTML", "TAILWIND CSS", "JAVASCRIPT", "TEAM PROJECT"]
+  },
+  {
+    id: "GRIN-UTN-TP",
+    type: "featured",
+    title: "GRIN GAME",
+    description: "Game made in C++ for the subject of Programming II - Team Project",
+    overview: "A game made in C++ for the subject of Programming II, the game is a simple platformer where the player has to reach the end of the level without dying. The game features multiple levels with increasing difficulty, and the player can collect gems to increase their score. The game is built using the SFML library and features custom graphics and sound effects.",
+    challenges: [
+      "Learning SFML from scratch",
+      "Colaborating with a team fully of unknown people",
+      "Use POO in C++",
+      "Manage memory in C++",
+      "Implement a collision system"
+    ],
+    solutions: [
+      "Implemented SFML for the game engine",
+      "Used Tiled for the levels",
+      "Implement a collision system with AABB",
+      "Use a singleton pattern for the game engine",
+      "Use a factory pattern for the entities"
+    ],
+    technologies: [
+      "C++",
+      "SFML",
+    ],
+    videos:[
+    "https://cdn-cf-east.streamable.com/video/mp4/am174d.mp4?Expires=1735314367541&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=XAwbKFqDDWYmfNIVX~CjWfLPakgVoMteUr8TMtxI6mLKEy~O1fRJ68hvmMdnBGy0eZ4DGiEuYmKnV4cC27jRG81JGGA2VLx~Ud79VbkxoTGP3TtIc98xd62vwOINcm-nR5nA0RWS9n39vOCR~HKXVhQ4SvcloxOHO8-kdlrCAUoRtY6tSZaIJvMbtgQk6XGpcpvwu-BBcTPPpfN-v3G3JS0pgxQSGOrDqcg0GVJVjNHNrMuqYTr6dft0Rup5zvi0bHRG4P0wza2xwOysUFPepxf-F8leZu6N~wsBg5LTnmSghhKEpfTkjkW1n~ZRob-8HSyT2rZ2rdYnx1qech~GKQ__"  
+    ],
+    github:"https://github.com/Alanjaqs/GRIN-UTN-TP",
+    year:"2024",
+    tags: ["C++", "SFML", "TEAM PROJECT"]
   },
   {
     id: "landing",

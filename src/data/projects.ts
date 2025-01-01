@@ -86,17 +86,13 @@ export const projectsData: Project[] = [
       "Manage memory in C++",
       "Implement a collision system"
     ],
-    solutions: [
-      "Implemented SFML for the game engine",
-      "Used Tiled for the levels",
-      "Implement a collision system with AABB",
-      "Use a singleton pattern for the game engine",
-      "Use a factory pattern for the entities"
-    ],
     technologies: [
       "C++",
       "SFML",
     ],
+    solutions:[
+      "Used SFML", 
+    ]
     images:[
       "/backMenu.png"
     ],

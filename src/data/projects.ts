@@ -92,7 +92,7 @@ export const projectsData: Project[] = [
     ],
     solutions:[
       "Used SFML", 
-    ]
+    ],
     images:[
       "/backMenu.png"
     ],

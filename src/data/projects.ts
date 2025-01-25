@@ -130,10 +130,10 @@ export const projectsData: Project[] = [
     type: "secondary",
     title: "CRUD Notes app",
     description: "Simple CRUD application built with NestJS, React, SQLite and JWT Auth for a technical challenge in a job interview",
-    overview: "A simple CRUD application built with NestJS, React, SQLite and JWT Auth for a technical challenge in a job interview. The application allows users to create, read, update and delete notes. The backend is built with NestJS and SQLite and features JWT authentication. The frontend is built with React and features a responsive user interface for managing notes and relations with categories. \n One of the most challenging parts of this project was to implement a script that allows to run all the project with only one command in linux systems. \n I leaned a lot about the NestJS framework and how to use ORM's as TypeOrm",
+    overview: "A simple CRUD application built with NestJS, React, SQLite and JWT Auth for a technical challenge in a job interview. The application allows users to create, read, update and delete notes. The backend is built with NestJS and SQLite and features JWT authentication. The frontend is built with React and features a responsive user interface for managing notes and relations with categories. \n <br/> One of the most challenging parts of this project was to implement a script that allows to run all the project with only one command in linux systems. \n I leaned a lot about the NestJS framework and how to use ORM's as TypeOrm",
     technologies: ["NestJS", "React", "SQLite", "JWT Auth", "TypeOrm"],
   github: "https://github.com/Keys4Ever/CRUD-NestJS",
     year: "2025",
-    tags: ["TypeScript", "React", "NestJS, ORM, TypeOrm"]
+    tags: ["TypeScript", "React", "NestJS", "ORM", "TypeOrm"]
   }
 ];

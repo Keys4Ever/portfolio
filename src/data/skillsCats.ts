@@ -1,4 +1,4 @@
-import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel } from 'icons';
+import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel, nestJs } from 'icons';
 export const skillCategories = {
     frontend: {
       title: 'LANGUAGES',
@@ -18,6 +18,7 @@ export const skillCategories = {
       skills: [
         { name: 'Node.Js', icon: NodeJS },
         { name: 'Express', icon: Express },
+        { name: 'NestJS', icon: nestJs},
         { name: 'React', icon: React },
         { name: 'Astro', icon: Astro },
         { name: 'SFML', icon: Sfml }

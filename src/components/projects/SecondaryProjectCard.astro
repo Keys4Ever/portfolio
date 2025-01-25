@@ -9,7 +9,7 @@ interface Props {
 const { project } = Astro.props;
 ---
 <a href={`/project/${project.id}`}>
-  <div class="border-2 border-white p-6 hover:border-pink-500 transition-colors">
+  <div class="border-2 border-white p-6 hover:border-pink-500 transition-colors h-full flex flex-col justify-between">
     <div class="flex justify-between items-start mb-4">
       <h3 class="text-xl font-bold">{project.title}</h3>
       <span set:html={ArrowUpRight} class="text-pink-500"></span>
@@ -26,3 +26,4 @@ const { project } = Astro.props;
     </div>
   </div>
 </a>
+  

@@ -5,7 +5,7 @@ export const projectsData: Project[] = [
     id: "URL-Shortener",
     type: "featured",
     title: "URL Shortener",
-    description: "Full-stack application built with Node.js, Express, React and PostgreSQL",
+    description: "Full-stack application built with Node.js, Express, React and PostgreSQL. With Typescript",
     overview: "A URL shortening service that allows users to create shortened URLs from long links. Features include custom URL aliases, clicks counts, user authentication, and Tags for the urls.",
     challenges: [
       "Implementing redis caching for faster redirections",
@@ -18,17 +18,19 @@ export const projectsData: Project[] = [
     solutions: [
       "Used Redis for caching frequently accessed URLs",
       "Designed a PostgreSQL schema optimized for URL storage",
+      "JWT Auth",
       "Implemented input validation and sanitization",
-      "Built a responsive React front-end",
-      "Deployed the application on AWS EC2 and RDS",
+      "Built a responsive React front-end with typescript and zustand",
+      "Deployed the application on AWS EC2",
       "Used PostgreSQL for storing tags and implemented many-to-many relationship between urls and tags"
     ],
     technologies: [
+      "TypeScript",
       "React.js",
+      "Zustand",
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "TypeScript",
       "PostgreSQL",
       "Redis",
       "AWS",
@@ -37,10 +39,10 @@ export const projectsData: Project[] = [
       "https://i.imgur.com/Dvigxup.png",
       "https://i.imgur.com/AStyyNn.png",
     ],
-    github: "https://github.com/Keys4Ever/URLShortenerV2",
+    github: "https://github.com/Keys4Ever/KeysLat",
     demo: "https://keys.lat",
     year: "2024",
-    tags: ["REACT.JS", "EXPRESS.JS", "TYPESCRIPT"]
+    tags: ["REACT.JS", "EXPRESS.JS", "TYPESCRIPT", "AWS"]
   },
   {
     id: "Manga-Library",

@@ -36,8 +36,8 @@ export const projectsData: Project[] = [
       "AWS",
     ],
     images: [
-      "https://i.imgur.com/Dvigxup.png",
-      "https://i.imgur.com/AStyyNn.png",
+      "/keyslat.webp",
+      "/KeysLat-secondary.webp",
     ],
     github: "https://github.com/Keys4Ever/KeysLat",
     demo: "https://keys.lat",
@@ -67,8 +67,8 @@ export const projectsData: Project[] = [
       "JavaScript",
     ],
     images: [
-      "https://i.imgur.com/1M1GULU.png",
-      "https://i.imgur.com/bSS4MNn.png",
+      "/mangaLibrary/MangaLibrary-cover.webp",
+      "/mangaLibrary/MangaLibrary-secondary.webp",
     ],
     github: "https://github.com/KosmoSama/Manga-Extension",
     demo: "https://chromewebstore.google.com/detail/manga-library/agdepjcnhljkjcnnmanbooinhoaieidc",
@@ -96,7 +96,7 @@ export const projectsData: Project[] = [
       "Used SFML", 
     ],
     images:[
-      "/backMenu.png"
+      "/backMenu.webp"
     ],
     videos:[
     "https://cdn-cf-east.streamable.com/video/mp4/am174d.mp4?Expires=1735314367541&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=XAwbKFqDDWYmfNIVX~CjWfLPakgVoMteUr8TMtxI6mLKEy~O1fRJ68hvmMdnBGy0eZ4DGiEuYmKnV4cC27jRG81JGGA2VLx~Ud79VbkxoTGP3TtIc98xd62vwOINcm-nR5nA0RWS9n39vOCR~HKXVhQ4SvcloxOHO8-kdlrCAUoRtY6tSZaIJvMbtgQk6XGpcpvwu-BBcTPPpfN-v3G3JS0pgxQSGOrDqcg0GVJVjNHNrMuqYTr6dft0Rup5zvi0bHRG4P0wza2xwOysUFPepxf-F8leZu6N~wsBg5LTnmSghhKEpfTkjkW1n~ZRob-8HSyT2rZ2rdYnx1qech~GKQ__"  

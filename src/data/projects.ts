@@ -37,7 +37,7 @@ export const projectsData: Project[] = [
     ],
     images: [
       "/urlShortener/keyslat.webp",
-      "/urlShortener/KeysLat-secondary.webp",
+      "/urlShortener/KeysLat-Secondary.webp",
     ],
     github: "https://github.com/Keys4Ever/KeysLat",
     demo: "https://keys.lat",

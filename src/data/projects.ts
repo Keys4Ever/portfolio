@@ -36,8 +36,8 @@ export const projectsData: Project[] = [
       "AWS",
     ],
     images: [
-      "/keyslat.webp",
-      "/KeysLat-secondary.webp",
+      "/urlShortener/keyslat.webp",
+      "/urlShortener/KeysLat-secondary.webp",
     ],
     github: "https://github.com/Keys4Ever/KeysLat",
     demo: "https://keys.lat",

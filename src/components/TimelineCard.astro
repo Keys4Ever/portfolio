@@ -1,0 +1,72 @@
+---
+import {
+  Calendar,
+  Building2,
+  ArrowUpRight,
+  Code2,
+  ChevronDown,
+  GraduationCap
+} from '@lucide/astro';
+
+const { experience } = Astro.props;
+const isWork = experience.type === 'work';
+---
+<details class={`group border-4 ${isWork ? 'border-white' : 'border-white/50'} hover:border-pink-500 transition-colors p-6 bg-black mb-4`}>
+  <summary class="w-full flex flex-col gap-4 cursor-pointer list-none marker:hidden">
+    <div class="flex items-center justify-between">
+      <h3 class={`text-2xl font-bold ${!isWork ? 'text-gray-400' : ''}`}>
+        {experience.position}
+      </h3>
+      <ChevronDown class="transition-transform group-open:rotate-180" />
+    </div>
+
+    <div class="flex items-center gap-2 text-gray-400">
+      {isWork
+        ? <Building2 size={20} />
+        : <GraduationCap size={20} />
+      }
+      {experience.url
+        ? (
+          <a
+            href={experience.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-1 hover:text-pink-500 transition-colors"
+            onclick="event.stopPropagation()"
+        >
+            {experience.company}
+            <ArrowUpRight size={16} />
+          </a>
+        )
+        : <span>{experience.company}</span>
+      }
+    </div>
+
+    <div class="flex items-center gap-2 text-gray-400">
+      <Calendar size={20} />
+      <span>{experience.period}</span>
+    </div>
+  </summary>
+
+  <div class="pt-6 mt-6 border-t border-white/20">
+    <p class="text-lg text-gray-300 mb-6">{experience.description}</p>
+
+    <div class="space-y-4">
+      <div class="flex items-center gap-2">
+        <Code2 size={20} class="text-pink-500" />
+        <h4 class="text-lg font-bold">
+          {isWork ? 'TECHNOLOGIES' : 'FOCUS AREAS'}
+        </h4>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        {experience.technologies.map((tech: any) => (
+          <span
+            class={`px-3 py-1 text-sm border-2 ${isWork ? 'border-white' : 'border-white/50'} transition-colors`}
+          >
+            {tech}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+</details>

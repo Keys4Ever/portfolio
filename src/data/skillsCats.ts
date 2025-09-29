@@ -1,4 +1,4 @@
-import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel, nestJs, zustand, CakePHP } from 'icons';
+import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Angular, PHP, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel, nestJs, zustand, CakePHP } from 'icons';
 export const skillCategories = {
     frontend: {
       title: 'LANGUAGES',

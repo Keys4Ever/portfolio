@@ -1,4 +1,4 @@
-import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel, nestJs, zustand } from 'icons';
+import { Cloud, Database, Github, Layout, Palette, Server, Wrench, Java, Js, TypeScript, css, cpp, Python, NodeJS, Express, React, Astro, Sfml, Postgres, MySql, supabase, Aws, Figma, Photoshop, Inkscape, git, Postman, vsCode, nginx, vercel, nestJs, zustand, CakePHP } from 'icons';
 export const skillCategories = {
     frontend: {
       title: 'LANGUAGES',
@@ -7,6 +7,7 @@ export const skillCategories = {
         { name: 'Java', icon: Java },
         { name: 'TypeScript', icon: TypeScript },
         { name: 'CSS', icon: css },
+        { name: 'PHP', icon: PHP }, 
         { name: 'C++', icon: cpp },
         { name: 'JavaScript', icon: Js },
         { name: 'Python', icon: Python },
@@ -17,6 +18,9 @@ export const skillCategories = {
       icon: Server,
       skills: [
         { name: 'Node.Js', icon: NodeJS },
+        { name: 'Cake.PHP', icon: CakePHP },
+        { name: 'Angular.JS', icon: Angular },
+        { name: 'Angular', icon: Angular },
         { name: 'Express', icon: Express },
         { name: 'NestJS', icon: nestJs},
         { name: 'React', icon: React },
@@ -58,6 +62,7 @@ export const skillCategories = {
       skills: [
         { name: 'git', icon: git },
         { name: 'Github', icon: Github },
+        { name: 'Bitbucket', icon: git },
         { name: 'POSTMAN', icon: Postman },
         { name: 'VS Code', icon: vsCode },
       ]

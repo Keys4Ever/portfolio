@@ -13,11 +13,11 @@ export const experiences: ExperienceItem[] = [
     {
         id: 'exp1',
         type: 'work',
-        company: "Nimble Graviry",
+        company: "Nimble Gravity",
         position: "Junior Full-Stack Developer",
         period: "04-2025 - Present",
         description: "Currently working here :D.",
-        technologies: ["React", "TypeScript"],
+        technologies: ["Angular.js", "PHP", "Typescript", "Bootstrap 3", "Next.JS"],
         url: "https://nimblegravity.com"
     },
     {
